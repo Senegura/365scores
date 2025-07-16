@@ -4,7 +4,8 @@ using Collectors.Soccer.Services.Soccer;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Scores365.Infrastrucrure.Events;
+using Scores365.Events;
+using Scores365.Infrastrucrure.KafkaExtensions;
 
 namespace Collectors.Soccer
 {
@@ -17,7 +18,8 @@ namespace Collectors.Soccer
            {
                services
                .AddSingleton<IScorePublisher, KafkaScorePublisher>()
-               .AddSingleton<ISoccerScoreCollector, SoccerScoreCollector>();
+               .AddSingleton<ISoccerScoreCollector, SoccerScoreCollector>()
+               .AddProducer<BaseEvent>(config => config.ClientId = "Collector.Soccer");
            })
            .ConfigureLogging(logging =>
            {

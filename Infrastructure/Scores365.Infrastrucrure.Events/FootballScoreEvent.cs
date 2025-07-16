@@ -1,4 +1,4 @@
-﻿namespace Scores365.Infrastrucrure.Events
+﻿namespace Scores365.Events
 {
     public class FootballScoreEvent : BaseEvent
     {

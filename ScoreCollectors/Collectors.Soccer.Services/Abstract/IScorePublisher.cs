@@ -1,5 +1,4 @@
-﻿using Collectors.Soccer.Domain;
-using Scores365.Infrastrucrure.Events;
+﻿using Scores365.Events;
 
 namespace Collectors.Soccer.Services.Abstract
 {

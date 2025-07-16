@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Scores365.Infrastrucrure.KafkaExtensions\Scores365.Infrastrucrure.KafkaExtensions.csproj" />
     <ProjectReference Include="..\Collectors.Soccer.Services\Collectors.Soccer.Services.csproj" />
   </ItemGroup>
 

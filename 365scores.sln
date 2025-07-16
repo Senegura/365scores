@@ -12,12 +12,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "setup", "setup", "{D8FF491D
 		setup\postgres.sql = setup\postgres.sql
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{4D3DAA54-28BF-456B-8E87-5FDDC07D79C3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scores365.Infrastructure", "Infra\Scores365.Infrastructure\Scores365.Infrastructure.csproj", "{211B1DA1-B519-42C7-830A-E2EFBF973F97}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scores365.Infrastructure.Tests", "Infra\Scores365.Infrastructure.Tests\Scores365.Infrastructure.Tests.csproj", "{44F70561-DF17-44AD-9DFC-C0727351052F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
 	ProjectSection(SolutionItems) = preProject
 		Readme.txt = Readme.txt
@@ -59,14 +53,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{211B1DA1-B519-42C7-830A-E2EFBF973F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{211B1DA1-B519-42C7-830A-E2EFBF973F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{211B1DA1-B519-42C7-830A-E2EFBF973F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{211B1DA1-B519-42C7-830A-E2EFBF973F97}.Release|Any CPU.Build.0 = Release|Any CPU
-		{44F70561-DF17-44AD-9DFC-C0727351052F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{44F70561-DF17-44AD-9DFC-C0727351052F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{44F70561-DF17-44AD-9DFC-C0727351052F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{44F70561-DF17-44AD-9DFC-C0727351052F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B98A66FB-9771-AFD9-DE4B-8F2AF634BEC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B98A66FB-9771-AFD9-DE4B-8F2AF634BEC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B98A66FB-9771-AFD9-DE4B-8F2AF634BEC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -120,8 +106,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{211B1DA1-B519-42C7-830A-E2EFBF973F97} = {4D3DAA54-28BF-456B-8E87-5FDDC07D79C3}
-		{44F70561-DF17-44AD-9DFC-C0727351052F} = {4D3DAA54-28BF-456B-8E87-5FDDC07D79C3}
 		{B98A66FB-9771-AFD9-DE4B-8F2AF634BEC8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{E401EBE4-286D-83AA-F920-90DC8380201F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{1B626CCD-162E-BB9A-E053-53097CE925EF} = {98EC2176-7DC4-4818-B74A-CDC685B16EB0}

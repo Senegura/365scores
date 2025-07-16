@@ -1,14 +1,17 @@
 ﻿using Collectors.Soccer.Services.Abstract;
 using Confluent.Kafka;
-using Scores365.Infrastrucrure.Events;
+using Scores365.Events;
+using Scores365.Infrastrucrure.KafkaExtensions;
 
 namespace Collectors.Soccer.Services.MessageBus
 {
-    public class KafkaScorePublisher(IProducer<string, SoccerScoreEvent> Producer) : IScorePublisher
+    public class KafkaScorePublisher(IProducer<string, BaseEvent> Producer) : IScorePublisher
     {
         public void Publish(BaseEvent @event)
         {
-            //Producer.Produce("", new Message<string, SoccerScoreEvent>() { Key =  });
+            var topicName = @event.GetKafkaTopicName();
+            var message = new Message<string, BaseEvent>() { Key = @event.EventTime.ToString(), Value = @event };
+            Producer.Produce(topicName, message);
         }
     }
 }
