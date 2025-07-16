@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36127.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collectors.Soccer", "Collectors.Soccer\Collectors.Soccer.csproj", "{F4687836-7C5D-4B10-ABED-E2ED19D8F8C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collectors.Soccer.Services", "Collectors.Soccer.Services\Collectors.Soccer.Services.csproj", "{224D6BEC-73DB-47B3-AB49-0B7BA5057CC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4687836-7C5D-4B10-ABED-E2ED19D8F8C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4687836-7C5D-4B10-ABED-E2ED19D8F8C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4687836-7C5D-4B10-ABED-E2ED19D8F8C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4687836-7C5D-4B10-ABED-E2ED19D8F8C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{224D6BEC-73DB-47B3-AB49-0B7BA5057CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224D6BEC-73DB-47B3-AB49-0B7BA5057CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224D6BEC-73DB-47B3-AB49-0B7BA5057CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224D6BEC-73DB-47B3-AB49-0B7BA5057CC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78EC818A-F0DC-48DD-9391-A748E322A1D5}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Scores365.Infrastrucrure.Events\Scores365.Infrastrucrure.Events.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Scores365.Infrastrucrure.KafkaExtensions\Scores365.Infrastrucrure.KafkaExtensions.csproj" />
+    <ProjectReference Include="..\Collectors.Soccer.Domain\Collectors.Soccer.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
