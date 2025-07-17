@@ -7,4 +7,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="9.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Scores365.Infrastrucrure.Events\Scores365.Infrastrucrure.Events.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Scores365.Infrastrucrure.KafkaExtensions\Scores365.Infrastrucrure.KafkaExtensions.csproj" />
+  </ItemGroup>
+
 </Project>
